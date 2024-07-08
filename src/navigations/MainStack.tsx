@@ -12,7 +12,7 @@ export default () => {
   return (
     <Stack.Navigator initialRouteName={'BottomTab'} /* screenOptions={{headerShown: false}} */>
       <Stack.Group>
-        <Stack.Screen name="BottomTab" component={BottomTab} options={{headerShown: false}}/>
+        <Stack.Screen name="BottomTab" component={BottomTab} options={{ headerShown: false }} />
         {/* <Stack.Screen name="" component={} options={{headerShown: false}}/> */}
       </Stack.Group>
     </Stack.Navigator>

@@ -1,3 +1,4 @@
+import React from 'react';
 import MainStack from '@navigations/MainStack';
 import { NavigationContainer } from '@react-navigation/native';
 import { useEffect } from 'react';

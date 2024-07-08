@@ -1,79 +1,63 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# ReactNativeTemplate
 
-# Getting Started
+This is a React Native template using version 0.74.2, bootstrapped with [@react-native-community/cli](https://github.com/react-native-community/cli).
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Description
 
-## Step 1: Start the Metro Server
+This template includes configurations and dependencies commonly used in React Native projects.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Scripts
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **android**: Runs the app on the Android emulator or device.
+- **ios**: Runs the app on the iOS simulator or device.
+- **lint**: Lints the project files using ESLint.
+- **start**: Starts the Metro bundler for developing the app.
+- **test**: Runs Jest to execute tests.
 
-```bash
-# using npm
-npm start
+## Installed Dependencies
 
-# OR using Yarn
-yarn start
-```
+### Main Dependencies
 
-## Step 2: Start your Application
+- **@react-native-async-storage/async-storage**: Asynchronous storage for React Native applications.
+- **@react-navigation/bottom-tabs**: Bottom tab navigation for React Navigation.
+- **@react-navigation/native**: Core navigation library for React Navigation.
+- **@react-navigation/native-stack**: Stack navigation for React Navigation.
+- **babel-plugin-module-resolver**: Babel plugin for module resolution.
+- **react**: JavaScript library for building user interfaces.
+- **react-native**: Framework for building native apps using React.
+- **react-native-safe-area-context**: Provides safe area insets for React Native applications.
+- **react-native-screens**: Native navigation primitives for React Native.
+- **react-native-splash-screen**: Splash screen API for React Native.
+- **react-native-svg**: SVG library for React Native.
+- **react-native-toast-message**: Toast notifications for React Native applications.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### Development Dependencies
 
-### For Android
+- **@babel/core**: Babel compiler core.
+- **@babel/preset-env**: Babel preset for compiling JavaScript to a specified version.
+- **@babel/runtime**: Babel runtime support.
+- **@react-native/babel-preset**: Default Babel preset for React Native.
+- **@react-native/eslint-config**: ESLint configuration for React Native projects.
+- **@react-native/metro-config**: Metro configuration for React Native projects.
+- **@react-native/typescript-config**: TypeScript configuration for React Native projects.
+- **@types/react**: TypeScript type definitions for React.
+- **@types/react-test-renderer**: TypeScript type definitions for React Test Renderer.
+- **@typescript-eslint/eslint-plugin**: ESLint plugin for TypeScript.
+- **@typescript-eslint/parser**: TypeScript parser for ESLint.
+- **babel-jest**: Jest transformer for Babel.
+- **eslint**: ESLint linter for JavaScript and TypeScript.
+- **eslint-plugin-react**: ESLint plugin for React specific linting rules.
+- **jest**: Delightful JavaScript Testing.
+- **prettier**: Opinionated code formatter.
+- **react-native-dotenv**: Loads environment variables from a .env file.
+- **react-native-svg-transformer**: Transformer for SVG files in React Native.
+- **react-test-renderer**: React renderer for Jest.
+- **typescript**: TypeScript language server and compiler.
 
-```bash
-# using npm
-npm run android
+## Supported Node Version
 
-# OR using Yarn
-yarn android
-```
+Requires Node.js version 18 or higher.
 
-### For iOS
+## Package Manager
 
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+This project uses Yarn version 3.6.4 as the package manager.

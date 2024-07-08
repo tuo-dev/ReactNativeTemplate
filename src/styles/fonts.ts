@@ -4,7 +4,7 @@ export const fonts = (color?:string) => {
   const textColor = color ? color : '#000000cc';
 
   return StyleSheet.create({
-    extra20 : {
+    extra20: {
       fontFamily: 'Pretendard-ExtraBold',
       fontSize: 20,
       fontStyle: 'normal',
@@ -12,7 +12,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.6
     },
-    extra8 : {
+    extra8: {
       fontFamily: 'Pretendard-ExtraBold',
       fontSize: 8,
       fontStyle: 'normal',
@@ -20,7 +20,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.3
     },
-    bold18 : {
+    bold18: {
       fontFamily: 'Pretendard-Bold',
       fontSize: 18,
       fontStyle: 'normal',
@@ -28,7 +28,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.54
     },
-    bold16 : {
+    bold16: {
       fontFamily: 'Pretendard-Bold',
       fontSize: 16,
       fontStyle: 'normal',
@@ -36,7 +36,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.48
     },
-    bold14 : {
+    bold14: {
       fontFamily: 'Pretendard-Bold',
       fontSize: 14,
       fontStyle: 'normal',
@@ -44,7 +44,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.42
     },
-    bold12 : {
+    bold12: {
       fontFamily: 'Pretendard-Bold',
       fontSize: 12,
       fontStyle: 'normal',
@@ -52,7 +52,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.36
     },
-    bold8 : {
+    bold8: {
       fontFamily: 'Pretendard-Bold',
       fontSize: 8,
       fontStyle: 'normal',
@@ -60,7 +60,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.3
     },
-    semi18 : {
+    semi18: {
       fontFamily: 'Pretendard-SemiBold',
       fontSize: 18,
       fontStyle: 'normal',
@@ -68,7 +68,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.66
     },
-    semi16 : {
+    semi16: {
       fontFamily: 'Pretendard-SemiBold',
       fontSize: 16,
       fontStyle: 'normal',
@@ -76,7 +76,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.48
     },
-    semi14 : {
+    semi14: {
       fontFamily: 'Pretendard-SemiBold',
       fontSize: 14,
       fontStyle: 'normal',
@@ -84,7 +84,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.42
     },
-    semi12 : {
+    semi12: {
       fontFamily: 'Pretendard-SemiBold',
       fontSize: 12,
       fontStyle: 'normal',
@@ -92,7 +92,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.36
     },
-    semi8 : {
+    semi8: {
       fontFamily: 'Pretendard-SemiBold',
       fontSize: 8,
       fontStyle: 'normal',
@@ -100,7 +100,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.3
     },
-    medium16 : {
+    medium16: {
       fontFamily: 'Pretendard-Medium',
       fontSize: 16,
       fontStyle: 'normal',
@@ -108,7 +108,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.48
     },
-    medium14 : {
+    medium14: {
       fontFamily: 'Pretendard-Medium',
       fontSize: 14,
       fontStyle: 'normal',
@@ -116,7 +116,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.42
     },
-    medium12 : {
+    medium12: {
       fontFamily: 'Pretendard-Medium',
       fontSize: 12,
       fontStyle: 'normal',
@@ -124,7 +124,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.36
     },
-    medium11 : {
+    medium11: {
       fontFamily: 'Pretendard-Medium',
       fontSize: 11,
       fontStyle: 'normal',
@@ -132,7 +132,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.33
     },
-    medium10 : {
+    medium10: {
       fontFamily: 'Pretendard-Medium',
       fontSize: 10,
       fontStyle: 'normal',
@@ -140,7 +140,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.30
     },
-    regular16 : {
+    regular16: {
       fontFamily: 'Pretendard-Regular',
       fontSize: 16,
       fontStyle: 'normal',
@@ -148,7 +148,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.48
     },
-    regular14 : {
+    regular14: {
       fontFamily: 'Pretendard-Regular',
       fontSize: 14,
       fontStyle: 'normal',
@@ -156,7 +156,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.42
     },
-    regular12 : {
+    regular12: {
       fontFamily: 'Pretendard-Regular',
       fontSize: 12,
       fontStyle: 'normal',
@@ -164,7 +164,7 @@ export const fonts = (color?:string) => {
       color: textColor,
       letterSpacing: -0.36
     },
-    regular8 : {
+    regular8: {
       fontFamily: 'Pretendard-Regular',
       fontSize: 8,
       fontStyle: 'normal',
